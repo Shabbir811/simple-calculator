@@ -64,7 +64,12 @@ form input{
     font-size: 2em;
     cursor: pointer;
     text-align: center;
+    transition: .5s ease-in-out;
 
+}
+
+.btn:hover{
+    transform: scale(1.1);
 }
 
 .clear-btn{
@@ -91,3 +96,4 @@ form input{
 
     
 }
+
